@@ -1,4 +1,4 @@
-## February 9 in class exercise
+## January 24 in class exercise
 
 1. Clone this repository
 2. Create a branch of this repository. Use your first name as the name of the branch.
