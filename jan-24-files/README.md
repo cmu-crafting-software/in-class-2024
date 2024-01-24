@@ -3,7 +3,7 @@
 1. Clone this repository
 2. Create a branch of this repository. Use your first name as the name of the branch.
 3. Create a new file, `solution.py`, in the root directory of this repository that you will use to write your code.
-4. Write a python function that reads in `presidents.json` in the root of this repository and compute the average age of each of the people in the file.
+4. Write a python function that reads in `presidents.json` in the root of this repository and computes the average age of each of the people in the file.
 3. Edit `presidents.json` to add a new president. Rerun your function to make sure it prints the age of the new president. 
 4. Edit the presidents.json file to add a new column for state of birth.
 5. Write a python function that reads in your new `presidents.json` and prints out all of the presidents sorted by state.
