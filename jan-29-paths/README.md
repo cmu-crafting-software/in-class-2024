@@ -1,4 +1,4 @@
-## January 27 in class exercise
+## January 29 in class exercise
 
 1. Pull changes from the main branch into your branch and working directory.
 2. Edit `presidents.json` to add a new president.
