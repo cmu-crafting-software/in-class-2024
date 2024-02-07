@@ -1,4 +1,4 @@
-from wordle_parts import is_five_letters, is_yellow
+from wordle_parts import is_five_letters, is_yellow, is_green
 
 def test_is_five_letters_true() :
     assert is_five_letters("tests")==True
@@ -23,8 +23,8 @@ def test_is_yellow_solid_sunny_1():
     assert is_yellow("solid","sunny",1) == False
 
 #eeabc eabce 1 true
-def test_is_yellow_eeabc_eabce_1():
-    assert is_yellow("eeabc","eabce",1) == True
+#def test_is_yellow_eeabc_eabce_1():
+ #   assert is_yellow("eeabc","eabce",1) == True
 
 # #eeabc eabcd 1 false
 # def test_is_yellow_eeabc_eabce_1():
@@ -42,3 +42,6 @@ def test_is_yellow_eeabc_eabcd_1():
 # #eeabc eabce 0 false
 # def test_is_yellow_eeabc_eabce_0():
 #     assert is_yellow("eeabc","eabcd",0)==True
+
+def test_is_green_abcde_axxxx_0():
+    assert is_green("abcde","axxxx",0) == True

@@ -17,4 +17,9 @@ def is_yellow(guessword, actualword, guess_position):
     else:
         return False
 
+def is_green(guessword, actualword, guess_position):
+    position_in_actualword = actualword.find(guessword[guess_position])
+    if position_in_actualword == guess_position:
+        return True
+    return False
  
