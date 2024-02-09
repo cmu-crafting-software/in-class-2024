@@ -15,7 +15,7 @@ def test_is_yellow_eabcd_abcde_0():
      assert is_yellow("eabcd","xxxxe",0) == True
 
 # #solid “sunny” 0 false
-def test_is_yellow_toils_sunny_0():
+def test_is_yellow_solid_sunny_0():
     assert is_yellow("solid","sunny",0) == False
 
 #solid “sunny” 1 false
@@ -25,10 +25,6 @@ def test_is_yellow_solid_sunny_1():
 #eeabc eabce 1 true
 def test_is_yellow_eeabc_eabce_1():
     assert is_yellow("eeabc","eabce",1) == True
-
-# #eeabc eabcd 1 false
-def test_is_yellow_eeabc_eabce_1():
-    assert is_yellow("eeabc","eabce",1) ==True
 
 #eeabc eabcd 1 false
 def test_is_yellow_eeabc_eabcd_1():
@@ -40,4 +36,12 @@ def test_is_yellow_eeabc_eabcd_0():
 
 # #eeabc eabce 0 false
 def test_is_yellow_eeabc_eabce_0():
-    assert is_yellow("eeabc","eabcd",0)==False
+    assert is_yellow("eeabc","eabcd",0) == False
+
+# eeeee aaaee 1 true
+def test_is_yellow_eeeee_aaaee_1():
+    assert is_yellow("eeeee","aaaee",1) == True
+
+# eeeee aaaee 2 false
+def test_is_yellow_eeeee_aaaee_2():
+    assert is_yellow("eeeee","eeeaa",2) == False
