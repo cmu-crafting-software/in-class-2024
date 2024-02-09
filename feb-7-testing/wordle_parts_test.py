@@ -27,18 +27,17 @@ def test_is_yellow_eeabc_eabce_1():
     assert is_yellow("eeabc","eabce",1) == True
 
 # #eeabc eabcd 1 false
-# def test_is_yellow_eeabc_eabce_1():
-#     assert is_yellow("eeabc","eabce",1) ==True
+def test_is_yellow_eeabc_eabce_1():
+    assert is_yellow("eeabc","eabce",1) ==True
 
 #eeabc eabcd 1 false
 def test_is_yellow_eeabc_eabcd_1():
     assert is_yellow("eeabc","eabcd",1) == False
 
 # #eeabc eabcd 1 false
-# def test_is_yellow_eeabc_eabcd_0():
-#     assert is_yellow("eeabc","eabcd",0) == False
-
+def test_is_yellow_eeabc_eabcd_0():
+    assert is_yellow("eeabc","eabcd",0) == False
 
 # #eeabc eabce 0 false
-# def test_is_yellow_eeabc_eabce_0():
-#     assert is_yellow("eeabc","eabcd",0)==True
+def test_is_yellow_eeabc_eabce_0():
+    assert is_yellow("eeabc","eabcd",0)==False
