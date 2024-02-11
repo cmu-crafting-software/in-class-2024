@@ -1,3 +1,5 @@
+We covered this material that remained from Wednesday's lecture in Recitation on 2024-02-11. It took about 40 minutes to get through the material.
+
 ## Initial steps
 1.	Navigate to: https://github.com/cmu-crafting-software/in-class-2024/
 2.	Code-->Codespaces-->(+)
