@@ -3,6 +3,7 @@
 
 import csv
 from datetime import datetime
+import os
 
 def sortPresHeights(presHeights):
    print(presHeights)
@@ -23,7 +24,7 @@ def calc_avg_h():
    heights = []
    numRows = 0
    greatness = []
-   with open ('./president_heights.csv') as csvfile:
+   with open ('./feb-12-debugging/president_heights.csv') as csvfile:
        presidentReader = csv.DictReader(csvfile, delimiter = ",")
        for row in presidentReader:
            presName = row['president']
@@ -58,7 +59,8 @@ def calc_avg_h():
 
 
 def main():
-   with open ('president_heights.csv') as csvfile:
+   print(os.getcwd())
+   with open ('./feb-12-debugging/president_heights.csv') as csvfile:
        presidentReader = csv.DictReader(csvfile, delimiter = ",")
        for row in presidentReader:
            print(row['name'])
