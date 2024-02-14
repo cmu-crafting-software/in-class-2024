@@ -2,12 +2,15 @@
   {
     "First": "Joe",
     "Last": "Biden",
-    "DOB": "1942-11-20"
+    "DOB": "1942-11-20",
+    "BirthState": "Pennsylvania"
   },
   {
     "First": "Donald",
     "Last": "Trump",
-    "DOB": "1946-05-14"
+    "DOB": "1946-05-14", 
+    "BirthState": "New York"
+
   },
   {
     "First": "Barack",
@@ -18,6 +21,13 @@
   {
     "First": "George",
     "Last": "Bush",
-    "DOB": "1946-07-06"
+    "DOB": "1946-07-06",
+    "BirthState": "Connecticut"
+  }, 
+  {
+    "First": "Dwight D.",
+    "Last": "Eisenhower",
+    "DOB": "1890-10-14",
+    "BirthState": "Texas"
   }
 ]
