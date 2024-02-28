@@ -3,12 +3,13 @@ import csv
 
 from datetime import datetime
 
-def averageAge():
-    f = open("jan-24-files/presidents.json")
+def printYears():
+    f = open("presidents.json")
     presidents = json.load(f)
 
     ages = []
     for president in presidents :
+<<<<<<< HEAD
         # age = 2024 - int(president["DOB"][:4])
         age = 2024 - datetime.strptime(president["DOB"],'%Y-%m-%d').year
         ages.append(age)
@@ -56,3 +57,9 @@ for file in files:
         age = obj['age']
         ages.append(age)
 print(sum(ages)/len(ages))
+=======
+        birthyear = datetime.strptime(president['DOB'], '%Y-%m-%d')
+        print(2024 - birthyear.year)
+
+printYears()
+>>>>>>> origin/main

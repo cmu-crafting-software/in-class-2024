@@ -2,36 +2,43 @@
   {
     "First": "Joe",
     "Last": "Biden",
-    "DOB": "1942-11-20"
+    "DOB": "1942-11-20",
+    "State": "Pennsylvania"
   },
   {
     "First": "Donald",
     "Last": "Trump",
-    "DOB": "1946-05-14"
+    "DOB": "1946-05-14",
+    "State": "New York"
   },
   {
     "First": "Barack",
     "Last": "Obama",
-    "DOB": "1961-08-04"
+    "DOB": "1961-08-04",
+    "State": "Hawaii"
   },
   {
     "First": "George W.",
     "Last": "Bush",
-    "DOB": "1946-07-07"
+    "DOB": "1946-07-07",
+    "State": "Connecticut"
   },
   {
     "First": "Bill",
     "Last": "Clinton",
-    "DOB": "1946-08-19"
+    "DOB": "1946-08-19",
+    "State": "Arkansas"
   },
   {
     "First": "Jimmy",
     "Last": "Carter",
-    "DOB": "1924-10-01"
+    "DOB": "1924-10-01",
+    "State": "Georgia"
   },
   {
-    "First": "Abraham",
-    "Last": "Lincoln",
-    "DOB": "1809-02-12"
+    "First": "George", 
+    "Last": "Washington",
+    "DOB": "1732-02-22",
+    "State": "Virginia"
   }
 ]
