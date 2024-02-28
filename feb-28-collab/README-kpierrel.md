@@ -23,6 +23,15 @@ Go to: https://github.com/cmu-crafting-software/in-class-2024
 14. Notice that you can change the board location from within the issue as well. Try doing that now.
 
 ## Make a change to your branch
+
+3. Open a Codespace
+4. Update your branch from main and push to GitHub
+   ```
+   $ git checkout <your andrewid>
+   $ git status (to make sure you are on your branch)
+   $ git fetch origin
+   $ git merge origin/main
+   $ git push
    ```
 5. Make a change to your branch
    1. Make sure that the change to your branch is on GitHub (you may need to reload the page in your web browser)
