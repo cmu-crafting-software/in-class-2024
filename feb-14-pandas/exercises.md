@@ -21,6 +21,8 @@ b) Based on this, what rule governs what is included (or not) in numerical slice
     * Numerical slices are non inclusive of the last number.
     * Named slices are inclusive of everything.
 ```python
+the numerical slices does not include the second number in slicing, but the named slices include the second namae in slicing
+
 europe_gdp_data = pd.read_csv('data/gapminder_gdp_europe.csv', index_col='country')
 print(europe_gdp_data.iloc[0:2, 0:2])
 print(europe_gdp_data.loc['Albania':'Belgium', 'gdpPercap_1952':'gdpPercap_1962'])
