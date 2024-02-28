@@ -46,9 +46,11 @@ Go to: https://github.com/cmu-crafting-software/in-class-2024
 1. Fill in the title and description of the PR
 2. Assign the PR to yourself (on the right hand side of the screen)
 3. Choose your group mate as the reviewer
+4. Choose the project that you created
 4. Choose some labels for the PR (you can create a new label, too, if you like)
+6. Click `Create` 
 5. Under Development, select the issue you created
-6. Click `Create` and tell your group mate the PR#
+7. Tell your group mate the PR#
 
 ## Review a Pull Request for someone else
 
