@@ -65,7 +65,7 @@ Go to: https://github.com/cmu-crafting-software/in-class-2024
 1. Go back to your own PR after your group mate has reviewed it
 1. Read the review your group mate left
 2. At this point you can either merge the PR as-is or push more commits to, e.g., address some issues that the reviewer had.
-3. If everything looks ok, squash and merge the PR
+3. If everything looks ok, squash and merge the PR (you will need to confirm this)
 
 ## Post-merge status check
 
