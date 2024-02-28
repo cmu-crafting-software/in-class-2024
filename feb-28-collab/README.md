@@ -15,6 +15,7 @@ Go to: https://github.com/cmu-crafting-software/in-class-2024
 
 ## Create an issue
 
+1. Go to: https://github.com/cmu-crafting-software/in-class-2024
 1. Click `Issues`
 1. Notice the issue you created on the Kanban board is also listed here
 2. Click `New Issue`
