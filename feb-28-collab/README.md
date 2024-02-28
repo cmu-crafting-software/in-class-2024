@@ -58,7 +58,7 @@ Go to: https://github.com/cmu-crafting-software/in-class-2024
 1. On the PR that your group mate sent to you:
 1. Click the `Files Changed` tab to see the changes
 2. Select some lines by dragging the plus and add a comment
-3. Click `Review Changes` and enter a positive comment
+3. Click `Review Changes`, enter a positive comment, select `Approve`, and click the green button.
 4. On the main PR screen, how has the `Review` pane changed?
 
 ## Merge your PR into Main
