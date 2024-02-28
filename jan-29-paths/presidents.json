@@ -23,11 +23,20 @@
     "Last": "Bush",
     "DOB": "1946-07-06",
     "BirthState": "Connecticut"
+<<<<<<< HEAD
+  },
+  {
+    "First": "Abraham",
+    "Last": "Lincoln",
+    "DOB": "1809-02-12",
+    "BirthState": "Kentucky"
+=======
   }, 
   {
     "First": "Dwight D.",
     "Last": "Eisenhower",
     "DOB": "1890-10-14",
     "BirthState": "Texas"
+>>>>>>> origin/main
   }
 ]
