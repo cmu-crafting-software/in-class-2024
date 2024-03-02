@@ -36,11 +36,6 @@ def is_yellow(guess, secret, pos):
             # All other cases: not yellow
             return False
 
-def is_green(guessword, actualword, guess_position):
-    position_in_actualword = actualword.find(guessword[guess_position])
-    if position_in_actualword == guess_position:
-        return True
-    return False
 def is_green(guess, secret, pos):
     # TODO: Implement this function
     return True 
