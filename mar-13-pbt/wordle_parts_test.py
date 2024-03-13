@@ -7,4 +7,13 @@ def test_is_five_letters_pbt(s: str) :
 
 @given(st.text(min_size=5, max_size=5),st.text(min_size=5, max_size=5), st.integers(min_value=0, max_value=4))
 def test_is_yellow_pbt(guess: str, secret: str, pos: int) :
-    pass # TODO: Replace with your code
+    if(is_green(guess, secret, pos)):
+        assert is_yellow(guess, secret, pos) == False
+    elif(is_red(guess, secret, pos)):
+        assert is_yellow(guess, secret, pos) == False
+    else:
+        assert is_yellow(guess, secret, pos) == True
+@given(st.text(min_size=5, max_size=5),st.text(min_size=5, max_size=5), st.integers(min_value=0, max_value=4))
+def test_is_yellow_pbt(guess: str, secret: str, pos: int) :
+    alpha = guess[pos]
+    # pass # TODO: Replace with your code
