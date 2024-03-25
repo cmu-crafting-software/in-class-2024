@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<Title>18+ Population</Title>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.16.3"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-c525e9befdca47f9d5a6527d3d96cd6c"}, "mark": {"type": "bar", "color": "black", "opacity": 0.8}, "encoding": {"x": {"field": "POP", "title": "Population", "type": "quantitative"}, "y": {"field": "NAME", "sort": "-x", "title": "State", "type": "nominal"}}, "title": "18+ Population for all US states", "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json", "datasets": {"data-c525e9befdca47f9d5a6527d3d96cd6c": [{"NAME": "Mississippi", "POP": "2277566", "AGEGROUP": "29", "state": "28"}, {"NAME": "Missouri", "POP": "4766843", "AGEGROUP": "29", "state": "29"}, {"NAME": "Montana", "POP": "840190", "AGEGROUP": "29", "state": "30"}, {"NAME": "Nebraska", "POP": "1458334", "AGEGROUP": "29", "state": "31"}, {"NAME": "Nevada", "POP": "2387517", "AGEGROUP": "29", "state": "32"}, {"NAME": "New Hampshire", "POP": "1104458", "AGEGROUP": "29", "state": "33"}, {"NAME": "New Jersey", "POP": "6943612", "AGEGROUP": "29", "state": "34"}, {"NAME": "New Mexico", "POP": "1620991", "AGEGROUP": "29", "state": "35"}, {"NAME": "New York", "POP": "15425262", "AGEGROUP": "29", "state": "36"}, {"NAME": "North Carolina", "POP": "8187369", "AGEGROUP": "29", "state": "37"}, {"NAME": "North Dakota", "POP": "581891", "AGEGROUP": "29", "state": "38"}, {"NAME": "Ohio", "POP": "9111081", "AGEGROUP": "29", "state": "39"}, {"NAME": "Oklahoma", "POP": "3004733", "AGEGROUP": "29", "state": "40"}, {"NAME": "Oregon", "POP": "3351175", "AGEGROUP": "29", "state": "41"}, {"NAME": "Pennsylvania", "POP": "10167376", "AGEGROUP": "29", "state": "42"}, {"NAME": "Rhode Island", "POP": "854866", "AGEGROUP": "29", "state": "44"}, {"NAME": "South Carolina", "POP": "4037531", "AGEGROUP": "29", "state": "45"}, {"NAME": "South Dakota", "POP": "667558", "AGEGROUP": "29", "state": "46"}, {"NAME": "Tennessee", "POP": "5319123", "AGEGROUP": "29", "state": "47"}, {"NAME": "Texas", "POP": "21596071", "AGEGROUP": "29", "state": "48"}, {"NAME": "Vermont", "POP": "509984", "AGEGROUP": "29", "state": "50"}, {"NAME": "Utah", "POP": "2274774", "AGEGROUP": "29", "state": "49"}, {"NAME": "Virginia", "POP": "6674671", "AGEGROUP": "29", "state": "51"}, {"NAME": "Washington", "POP": "5951832", "AGEGROUP": "29", "state": "53"}, {"NAME": "West Virginia", "POP": "1432580", "AGEGROUP": "29", "state": "54"}, {"NAME": "Wisconsin", "POP": "4555837", "AGEGROUP": "29", "state": "55"}, {"NAME": "Wyoming", "POP": "445025", "AGEGROUP": "29", "state": "56"}, {"NAME": "Puerto Rico", "POP": "2620963", "AGEGROUP": "29", "state": "72"}, {"NAME": "Alabama", "POP": "3814879", "AGEGROUP": "29", "state": "01"}, {"NAME": "Alaska", "POP": "551562", "AGEGROUP": "29", "state": "02"}, {"NAME": "Arizona", "POP": "5638481", "AGEGROUP": "29", "state": "04"}, {"NAME": "Arkansas", "POP": "2317649", "AGEGROUP": "29", "state": "05"}, {"NAME": "California", "POP": "30617582", "AGEGROUP": "29", "state": "06"}, {"NAME": "Colorado", "POP": "4499217", "AGEGROUP": "29", "state": "08"}, {"NAME": "Delaware", "POP": "770192", "AGEGROUP": "29", "state": "10"}, {"NAME": "District of Columbia", "POP": "577581", "AGEGROUP": "29", "state": "11"}, {"NAME": "Connecticut", "POP": "2837847", "AGEGROUP": "29", "state": "09"}, {"NAME": "Florida", "POP": "17247808", "AGEGROUP": "29", "state": "12"}, {"NAME": "Georgia", "POP": "8113542", "AGEGROUP": "29", "state": "13"}, {"NAME": "Idaho", "POP": "1338864", "AGEGROUP": "29", "state": "16"}, {"NAME": "Hawaii", "POP": "1116004", "AGEGROUP": "29", "state": "15"}, {"NAME": "Illinois", "POP": "9853946", "AGEGROUP": "29", "state": "17"}, {"NAME": "Indiana", "POP": "5164245", "AGEGROUP": "29", "state": "18"}, {"NAME": "Iowa", "POP": "2428229", "AGEGROUP": "29", "state": "19"}, {"NAME": "Kansas", "POP": "2213064", "AGEGROUP": "29", "state": "20"}, {"NAME": "Kentucky", "POP": "3464802", "AGEGROUP": "29", "state": "21"}, {"NAME": "Louisiana", "POP": "3561164", "AGEGROUP": "29", "state": "22"}, {"NAME": "Maine", "POP": "1095370", "AGEGROUP": "29", "state": "23"}, {"NAME": "Maryland", "POP": "4710993", "AGEGROUP": "29", "state": "24"}, {"NAME": "Massachusetts", "POP": "5539703", "AGEGROUP": "29", "state": "25"}, {"NAME": "Michigan", "POP": "7842924", "AGEGROUP": "29", "state": "26"}, {"NAME": "Minnesota", "POP": "4336475", "AGEGROUP": "29", "state": "27"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
