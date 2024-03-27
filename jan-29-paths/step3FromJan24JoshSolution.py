@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import json
+import os
+import glob
 from datetime import datetime
 
 
@@ -8,7 +10,7 @@ from datetime import datetime
 def step3():
     f = open("presidents.json")
     presidents = json.load(f)
-
+    new_list = sorted(presidents, key=lambda x: x.birthstate)
     ages = []
     for president in presidents :
         dob = datetime.strptime(president['DOB'], '%Y-%m-%d')
@@ -19,4 +21,14 @@ def step3():
         ages.append(age)
     return ages
 
-print(step3())
+
+def rockmusicians():
+    os.chdir("musicians/rock")
+    files = glob.glob('*')
+    for file in files :
+        print(file)
+    print(files)
+
+#print(step3())
+
+rockmusicians()
