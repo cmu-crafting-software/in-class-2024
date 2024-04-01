@@ -36,6 +36,8 @@ def is_yellow(guess, secret, pos):
             # All other cases: not yellow
             return False
 
+
+
 def is_green(guess, secret, pos):
     return guess[pos] == secret[pos]
 
