@@ -1,0 +1,7 @@
+- switch to your branch
+- `git fetch origin`
+- `git merge origin/main`
+- Review the CSV datasets in the `data` subdirectory
+- Create interactive data visualizations!
+- Share with the class
+- Push to the repo
