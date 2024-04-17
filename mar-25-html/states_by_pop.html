@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.16.3"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-c46b1809fc5aa15bdd2934ea3f3fab54"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "POP", "type": "quantitative"}, "x": {"field": "POP", "type": "quantitative"}, "y": {"field": "NAME", "sort": "-x", "type": "nominal"}}, "$schema": "https://vega.github.io/schema/vega-lite/v5.16.3.json", "datasets": {"data-c46b1809fc5aa15bdd2934ea3f3fab54": [{"NAME": "Mississippi", "POP": "2976149", "state": "28"}, {"NAME": "Missouri", "POP": "6137428", "state": "29"}, {"NAME": "Montana", "POP": "1068778", "state": "30"}, {"NAME": "Nebraska", "POP": "1934408", "state": "31"}, {"NAME": "Nevada", "POP": "3080156", "state": "32"}, {"NAME": "New Hampshire", "POP": "1359711", "state": "33"}, {"NAME": "New Jersey", "POP": "8882190", "state": "34"}, {"NAME": "New Mexico", "POP": "2096829", "state": "35"}, {"NAME": "New York", "POP": "19453561", "state": "36"}, {"NAME": "North Carolina", "POP": "10488084", "state": "37"}, {"NAME": "North Dakota", "POP": "762062", "state": "38"}, {"NAME": "Ohio", "POP": "11689100", "state": "39"}, {"NAME": "Oklahoma", "POP": "3956971", "state": "40"}, {"NAME": "Oregon", "POP": "4217737", "state": "41"}, {"NAME": "Pennsylvania", "POP": "12801989", "state": "42"}, {"NAME": "Rhode Island", "POP": "1059361", "state": "44"}, {"NAME": "South Carolina", "POP": "5148714", "state": "45"}, {"NAME": "South Dakota", "POP": "884659", "state": "46"}, {"NAME": "Tennessee", "POP": "6829174", "state": "47"}, {"NAME": "Texas", "POP": "28995881", "state": "48"}, {"NAME": "Vermont", "POP": "623989", "state": "50"}, {"NAME": "Utah", "POP": "3205958", "state": "49"}, {"NAME": "Virginia", "POP": "8535519", "state": "51"}, {"NAME": "Washington", "POP": "7614893", "state": "53"}, {"NAME": "West Virginia", "POP": "1792147", "state": "54"}, {"NAME": "Wisconsin", "POP": "5822434", "state": "55"}, {"NAME": "Wyoming", "POP": "578759", "state": "56"}, {"NAME": "Puerto Rico", "POP": "3193694", "state": "72"}, {"NAME": "Alabama", "POP": "4903185", "state": "01"}, {"NAME": "Alaska", "POP": "731545", "state": "02"}, {"NAME": "Arizona", "POP": "7278717", "state": "04"}, {"NAME": "Arkansas", "POP": "3017804", "state": "05"}, {"NAME": "California", "POP": "39512223", "state": "06"}, {"NAME": "Colorado", "POP": "5758736", "state": "08"}, {"NAME": "Delaware", "POP": "973764", "state": "10"}, {"NAME": "District of Columbia", "POP": "705749", "state": "11"}, {"NAME": "Connecticut", "POP": "3565287", "state": "09"}, {"NAME": "Florida", "POP": "21477737", "state": "12"}, {"NAME": "Georgia", "POP": "10617423", "state": "13"}, {"NAME": "Idaho", "POP": "1787065", "state": "16"}, {"NAME": "Hawaii", "POP": "1415872", "state": "15"}, {"NAME": "Illinois", "POP": "12671821", "state": "17"}, {"NAME": "Indiana", "POP": "6732219", "state": "18"}, {"NAME": "Iowa", "POP": "3155070", "state": "19"}, {"NAME": "Kansas", "POP": "2913314", "state": "20"}, {"NAME": "Kentucky", "POP": "4467673", "state": "21"}, {"NAME": "Louisiana", "POP": "4648794", "state": "22"}, {"NAME": "Maine", "POP": "1344212", "state": "23"}, {"NAME": "Maryland", "POP": "6045680", "state": "24"}, {"NAME": "Massachusetts", "POP": "6892503", "state": "25"}, {"NAME": "Michigan", "POP": "9986857", "state": "26"}, {"NAME": "Minnesota", "POP": "5639632", "state": "27"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
